@@ -31,9 +31,9 @@ https://yoannchb-pro.github.io/Togglemenu/
        <div togglemenu-close>
            <div style="display: flex; flex-wrap: nowrap;">
                 <p style="flex: 1 1">Navbar</p>
-                 <!-- Close button icon -->
-                 <i togglemenu-btn></i>
-                 </div>
+                <!-- Close button icon -->
+                <i togglemenu-btn></i>
+           </div>
        </div>
 
         <!-- Te content of the menu -->
@@ -45,18 +45,19 @@ https://yoannchb-pro.github.io/Togglemenu/
                    </li>
                    <li>
                      <a href="#dashboard">Dashboard</a>
+                   </li>
+                   <li>
+                     <a href="#documentation">Documentation</a>
                     </li>
                     <li>
-                      <a href="#documentation">Documentation</a>
-                     </li>
-                     <li>
-                       <a href="#about">About</a>
-                     </li>
-                     <li>
-                        <a href="#contact">Contact</a>
-                     </li>
-                </ul>
+                      <a href="#about">About</a>
+                    </li>
+                    <li>
+                       <a href="#contact">Contact</a>
+                    </li>
+              </ul>
            </nav>
-      </div>
- </div>
+       </div>
+     
+</div>
 ```
