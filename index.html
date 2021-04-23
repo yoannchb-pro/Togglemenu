@@ -1,0 +1,209 @@
+<html>
+
+<head>
+    <title>Tooglemenu</title>
+    <script type="text/javascript" src="./lib/togglemenu.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- PRESENTATION -->
+    <div class="container">
+        <div class="container-header">
+            <h1>ToggleMenu.js</h1>
+            <p>Togglemenu.js is a library inspired from <a href="https://oncebot.github.io/pushbar.js/">pushbarjs</a> to make beatiful responsive menu from any side just with attributes.</p>
+            <button>
+                <a href="https://github.com/yoannchb-pro/Togglemenu">Github</a>
+            </button>
+        </div>
+        <div class="container-content">
+            <div class="boutton-container">
+                <button togglemenu-toggle="menu1" togglemenu-ripple>Toggle Left</button>
+                <button togglemenu-toggle="menu2" togglemenu-ripple>Toggle Right</button>
+                <button togglemenu-toggle="menu3" togglemenu-ripple>Toggle Top</button>
+                <button togglemenu-toggle="menu4" togglemenu-ripple>Toggle Bottom</button>
+            </div>
+
+            <textarea class="code">
+                <!-- Button to open the menu with ripple effect -->
+                <button togglemenu-toggle="menu1" togglemenu-ripple>Toggle Left</button>
+
+                <!-- The menu -->
+                <div togglemenu-container id="menu1">
+
+                    <!-- CAN BE LEFT, RIGHT, BOTTOM OR TOP -->
+                    <div togglemenu-menu="left">
+
+                        <!-- The menu header -->
+                        <div togglemenu-close>
+                            <div style="display: flex; flex-wrap: nowrap;">
+                                <p style="flex: 1 1">Navbar</p>
+                                <!-- Close button icon -->
+                                <i togglemenu-btn></i>
+                            </div>
+                        </div>
+
+                        <!-- Te content of the menu -->
+                        <div togglemenu-content>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="#home">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#dashboard">Dashboard</a>
+                                    </li>
+                                    <li>
+                                        <a href="#documentation">Documentation</a>
+                                    </li>
+                                    <li>
+                                        <a href="#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </textarea>
+        </div>
+    </div>
+
+    <!-- LEFT -->
+    <div togglemenu-container id="menu1">
+        <div togglemenu-menu="left">
+            <div togglemenu-close>
+                <div style="display: flex; flex-wrap: nowrap;">
+                    <p style="flex: 1 1">Navbar</p>
+                    <i togglemenu-btn></i>
+                </div>
+            </div>
+            <div togglemenu-content>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#dashboard">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#documentation">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div togglemenu-container id="menu2">
+        <div togglemenu-menu="right">
+            <div togglemenu-close>
+                <div style="display: flex; flex-wrap: nowrap;">
+                    <p style="flex: 1 1">Navbar</p>
+                    <i togglemenu-btn></i>
+                </div>
+            </div>
+            <div togglemenu-content>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#dashboard">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#documentation">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOP -->
+    <div togglemenu-container id="menu3">
+        <div togglemenu-menu="top">
+            <div togglemenu-close>
+                <div style="display: flex; flex-wrap: nowrap;">
+                    <p style="flex: 1 1">Navbar</p>
+                    <i togglemenu-btn></i>
+                </div>
+            </div>
+            <div togglemenu-content>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#dashboard">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#documentation">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTTOM -->
+    <div togglemenu-container id="menu4">
+        <div togglemenu-menu="bottom">
+            <div togglemenu-close>
+                <div style="display: flex; flex-wrap: nowrap;">
+                    <p style="flex: 1 1">Navbar</p>
+                    <i togglemenu-btn></i>
+                </div>
+            </div>
+            <div togglemenu-content>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#dashboard">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#documentation">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
