@@ -5,7 +5,8 @@ Togglemenu.js is a library inspired from <a href="https://oncebot.github.io/push
 <!-- IN THE HEAD -->
 
 <!-- CDN -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yoannchb-pro/togglemenu@latest/lib/togglemenu.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yoannchb-pro/togglemenu@latest/lib/script/togglemenu-js.js"></script>
+<link rel="stylesheet" src="https://cdn.jsdelivr.net/gh/yoannchb-pro/togglemenu@latest/lib/script/togglemenu-css.css"/>
 
 <!-- NORMAL -->
 <script type="text/javascript" src="./lib/togglemenu.js"></script>
