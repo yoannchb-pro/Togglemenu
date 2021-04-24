@@ -1,7 +1,8 @@
 # Togglemenu.js v1.0
 Togglemenu.js is a library inspired from <a href="https://oncebot.github.io/pushbar.js/">pushbarjs</a> to make beatiful responsive menu from any side just with attributes.
 
-<img alt="togglemenu.gif" src="./assets/togglemenu.gif"/>
+<img alt="togglemenu.gif" src="./assets/togglemenu.gif"></img>
+
 # Demo
 https://yoannchb-pro.github.io/Togglemenu/
 
